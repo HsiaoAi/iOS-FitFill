@@ -22,7 +22,7 @@
 git clone https://github.com/HsiaoAi/iOS-FitFill.git
 ```
 
-#### Build the Project on Simulators or Real Devices
+#### Run the Project in `Xcode`
 
 ## Usage example
 
