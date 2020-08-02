@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		872DE11C24D703720046ABE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DE11B24D703720046ABE8 /* AppDelegate.swift */; };
-		872DE11E24D703720046ABE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DE11D24D703720046ABE8 /* SceneDelegate.swift */; };
-		872DE12024D703720046ABE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DE11F24D703720046ABE8 /* ViewController.swift */; };
-		872DE12324D703720046ABE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872DE12124D703720046ABE8 /* Main.storyboard */; };
+		872DE12024D703720046ABE8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DE11F24D703720046ABE8 /* MainViewController.swift */; };
 		872DE12524D703770046ABE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872DE12424D703770046ABE8 /* Assets.xcassets */; };
 		872DE12824D703770046ABE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872DE12624D703770046ABE8 /* LaunchScreen.storyboard */; };
-		872DE13324D703770046ABE8 /* iOS_FitFillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DE13224D703770046ABE8 /* iOS_FitFillTests.swift */; };
+		872DE13324D703770046ABE8 /* MainViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DE13224D703770046ABE8 /* MainViewControllerTest.swift */; };
+		872DE14624D709A20046ABE8 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872DE14524D709A20046ABE8 /* MainViewController.storyboard */; };
+		872DE14B24D70BED0046ABE8 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DE14A24D70BED0046ABE8 /* UIStoryboard.swift */; };
+		872DE14D24D71C5B0046ABE8 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DE14C24D71C5B0046ABE8 /* UIImage.swift */; };
+		872DE14E24D71C5B0046ABE8 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DE14C24D71C5B0046ABE8 /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,15 +31,16 @@
 /* Begin PBXFileReference section */
 		872DE11824D703720046ABE8 /* iOS-FitFill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-FitFill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		872DE11B24D703720046ABE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		872DE11D24D703720046ABE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		872DE11F24D703720046ABE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		872DE12224D703720046ABE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		872DE11F24D703720046ABE8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		872DE12424D703770046ABE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		872DE12724D703770046ABE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		872DE12924D703770046ABE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		872DE12E24D703770046ABE8 /* iOS-FitFillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-FitFillTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		872DE13224D703770046ABE8 /* iOS_FitFillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_FitFillTests.swift; sourceTree = "<group>"; };
+		872DE13224D703770046ABE8 /* MainViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerTest.swift; sourceTree = "<group>"; };
 		872DE13424D703770046ABE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		872DE14524D709A20046ABE8 /* MainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
+		872DE14A24D70BED0046ABE8 /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		872DE14C24D71C5B0046ABE8 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				872DE11B24D703720046ABE8 /* AppDelegate.swift */,
-				872DE11D24D703720046ABE8 /* SceneDelegate.swift */,
-				872DE11F24D703720046ABE8 /* ViewController.swift */,
-				872DE12124D703720046ABE8 /* Main.storyboard */,
-				872DE12424D703770046ABE8 /* Assets.xcassets */,
-				872DE12624D703770046ABE8 /* LaunchScreen.storyboard */,
-				872DE12924D703770046ABE8 /* Info.plist */,
+				872DE13D24D705D80046ABE8 /* ViewControllers */,
+				872DE14924D70BB10046ABE8 /* Extensions */,
+				872DE13F24D706020046ABE8 /* Supporting Files */,
 			);
 			path = "iOS-FitFill";
 			sourceTree = "<group>";
@@ -93,10 +93,46 @@
 		872DE13124D703770046ABE8 /* iOS-FitFillTests */ = {
 			isa = PBXGroup;
 			children = (
-				872DE13224D703770046ABE8 /* iOS_FitFillTests.swift */,
+				872DE13224D703770046ABE8 /* MainViewControllerTest.swift */,
 				872DE13424D703770046ABE8 /* Info.plist */,
 			);
 			path = "iOS-FitFillTests";
+			sourceTree = "<group>";
+		};
+		872DE13D24D705D80046ABE8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				872DE13E24D705E70046ABE8 /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		872DE13E24D705E70046ABE8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				872DE11F24D703720046ABE8 /* MainViewController.swift */,
+				872DE14524D709A20046ABE8 /* MainViewController.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		872DE13F24D706020046ABE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				872DE12924D703770046ABE8 /* Info.plist */,
+				872DE12424D703770046ABE8 /* Assets.xcassets */,
+				872DE12624D703770046ABE8 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		872DE14924D70BB10046ABE8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				872DE14A24D70BED0046ABE8 /* UIStoryboard.swift */,
+				872DE14C24D71C5B0046ABE8 /* UIImage.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				872DE12824D703770046ABE8 /* LaunchScreen.storyboard in Resources */,
+				872DE14624D709A20046ABE8 /* MainViewController.storyboard in Resources */,
 				872DE12524D703770046ABE8 /* Assets.xcassets in Resources */,
-				872DE12324D703720046ABE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,9 +235,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				872DE12024D703720046ABE8 /* ViewController.swift in Sources */,
+				872DE14B24D70BED0046ABE8 /* UIStoryboard.swift in Sources */,
+				872DE14D24D71C5B0046ABE8 /* UIImage.swift in Sources */,
+				872DE12024D703720046ABE8 /* MainViewController.swift in Sources */,
 				872DE11C24D703720046ABE8 /* AppDelegate.swift in Sources */,
-				872DE11E24D703720046ABE8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +246,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				872DE13324D703770046ABE8 /* iOS_FitFillTests.swift in Sources */,
+				872DE13324D703770046ABE8 /* MainViewControllerTest.swift in Sources */,
+				872DE14E24D71C5B0046ABE8 /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,14 +262,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		872DE12124D703720046ABE8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				872DE12224D703720046ABE8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		872DE12624D703770046ABE8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,7 +323,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				INFOPLIST_FILE = "iOS-FitFill/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -347,7 +378,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				INFOPLIST_FILE = "iOS-FitFill/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -362,8 +394,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = DTTYHBEAZE;
-				INFOPLIST_FILE = "iOS-FitFill/Info.plist";
+				INFOPLIST_FILE = "iOS-FitFill/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,8 +413,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = DTTYHBEAZE;
-				INFOPLIST_FILE = "iOS-FitFill/Info.plist";
+				INFOPLIST_FILE = "iOS-FitFill/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
