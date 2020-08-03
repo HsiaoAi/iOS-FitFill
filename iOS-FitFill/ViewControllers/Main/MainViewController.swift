@@ -7,14 +7,7 @@
 
 import UIKit
 
-protocol MainViewProtocol: AnyObject {
-    var originalImage: UIImage? { get set }
-    var originalImageView: UIImageView! { get set }
-    var fillImageView: UIImageView! { get set }
-    var fitImageView: UIImageView! { get set }
-}
-
-class MainViewController: UIViewController, StoryboardInit, MainViewProtocol {
+class MainViewController: UIViewController, StoryboardInit {
     
     // MARK: - Constants
     
